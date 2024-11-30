@@ -1,0 +1,64 @@
+
+#users  need to login or create  account in order to create a poll in this website 
+# if a user wants to save the voting records they will need to create an account for that 
+    -saving the voting reacord we will save it as csv and post it on google drive and use google drive api for storing the file 
+    -saving in psql matching user's records with google drive url of the records
+
+1 user type in the room id to join the room like khahoot
+    -the room id will be generated randomly with somesort of logic
+    -the room maker can set a password for the room like khahoot too
+    -the roomaker can make a password hint too
+
+
+2 user login annonymous like khahoot using their fake names / or real names
+
+###poll creating page there will be
+
+displaying generated poll id 6 digits numbers only
+
+a field for poll name
+    choices on the poll add edit delete 
+
+    poll time out when to end the poll none/specific time (at most 30 mins)
+
+    poll password if any 
+        let the user decide if they want to have a passowrd for the poll or not
+    hint fot the poll password if any (let the poll creater decide)
+
+and tell the user poll creater dont leave the page till the voting is done 
+
+button to publish the poll -> navigate to the poll dashboard
+
+
+timer if there's a time ticking countingdown 
+(button)
+once it's time or all the voters voted a user can select to download the poll result in csv file and share it with others
+
+
+{
+  "username": "aj",
+  "password": "Aj123456789.",
+  "email": "aj@gmail.com"
+}
+
+
+
+
+
+clicked into vote button 
+navigate to passing in the poll id
+
+if the poll got a password ask for password too (show ask password component)
+if the poll got a hint for the password display it 
+
+the navigate to the vote page
+*select* one of the choice if selected 
+finish the the vote and say thankyou
+
+### on the next development setup socket.io for the voting system 
+
+### on the next development make sure that a sigle username(create an username field requirement there at the id-ask page and also show it on the voting page at the top right of the page) can only vote once create a poll with socket.io
+once a user voted they wont be able to vote again an the vote button will be changed in to thankyou clickable text
+
+
+### focus on votes at the voter end

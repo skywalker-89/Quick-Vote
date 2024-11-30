@@ -1,0 +1,61 @@
+/* Container */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Title and Subtitle */
+.welcome-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.welcome-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.welcome-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.welcome-button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Create Poll Button */
+.create-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
+
+/* Vote Button */
+.vote-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.vote-button:hover {
+  background-color: #1e7e34;
+}

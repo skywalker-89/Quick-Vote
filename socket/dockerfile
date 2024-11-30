@@ -1,0 +1,14 @@
+# Use an official Node.js runtime as a parent image
+FROM node:16
+
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY socket/package*.json ./
+RUN npm install
+
+# Copy the rest of the code
+COPY . .
+
+# Start the socket server
+CMD ["npm", "start"]

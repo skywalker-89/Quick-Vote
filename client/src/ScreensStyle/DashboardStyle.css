@@ -1,0 +1,91 @@
+/* Container for the dashboard */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Header with poll title and username/logout */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.username-logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+  gap: 20px; /* Space between the elements */
+}
+
+.username-greeting {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 45px;
+  margin-right: 20px;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+/* Main content container */
+.poll-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.end-poll-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.end-poll-button:hover {
+  background-color: #0056b3;
+}
+
+.poll-id {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}

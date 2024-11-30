@@ -1,0 +1,153 @@
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header */
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Username Greeting and Logout Button */
+.username-greeting-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.username-greeting {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+/* Poll Creation Form */
+.poll-creation-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+/* Poll Fields */
+.poll-field {
+  margin-bottom: 20px;
+}
+
+.poll-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.poll-field input,
+.poll-field select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Poll Choices */
+.poll-choice {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.poll-choice input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.poll-choice button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.poll-choice button:hover {
+  background-color: #c0392b;
+}
+
+.add-choice-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.add-choice-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-choice-btn {
+  background-color: #f39c12;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.delete-choice-btn:hover {
+  background-color: #e67e22;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
